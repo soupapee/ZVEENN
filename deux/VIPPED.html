@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bark nghit rp - Boutique</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="cyber-loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Matrix Background -->
+    <div class="matrix-bg" id="matrixBg"></div>
+
+    <!-- Particle System -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Audio Visualizer -->
+    <div class="audio-bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo" >⚡ bark nghit rp ⚡</div>
+            <ul class="nav-links">
+                <li><a href="car.html#home">HOME</a></li>
+                <li><a href="car.html#carpro">voiture</a></li>
+                <li><a href="#vip">VIP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title" >
+                <span class="glitch-text" data-text="bark nghit rp" id="homee">bark nghit rp</span>
+            </h1>
+            <p class="hero-subtitle">Boutique Officielle</p>
+            <div class="hero-buttons">
+                <a href="car.html#carpro" class="cyber-button">VOIR LA BOUTIQUE</a>
+                <a href="#vip" class="cyber-button secondary">DEVENIR VIP</a>
+            </div>
+        </div>
+    </section>
+
+     <section class="shop" id="proped">  
+        <div class="container" >
+            <h2 class="section-title" >⚡ BOUTIQUE ⚡</h2>
+            
+            <div class="shop-grid" id="ped">
+              
+                <div class="cyber-card">
+                    <img src="6051b6-02.jpg" alt="NEON RACER X1" class="product-image">
+                    <h3 class="product-title">Raphael</h3>
+                    <p class="product-desc"></p>
+                    <div class="product-price">40.00 DT</div>
+                    <button class="hologram-button" onclick="addToCart('NEON RACER X1', 40.00)">ACHETER</button>
+                </div>
+
+                <div class="cyber-card">
+                    <img src="3deb8c-20170904231846_1.jpg" alt="NEON RACER X1" class="product-image">
+                    <h3 class="product-title">Jacob</h3>
+                    <p class="product-desc"></p>
+                    <div class="product-price">50.00 DT</div>
+                 
+                    <button class="hologram-button" onclick="addToCart('NEON RACER X1', 50.00)">ACHETER</button>
+                </div>
+
+                <div class="cyber-card">
+                    <img src="31922d-imagem_2023-10-10_142950071.png" alt="GHOST HELI" class="product-image">
+                    <h3 class="product-title">sara</h3>
+                    <p class="product-desc"></p>
+                    <div class="product-price">60.00 DT</div>
+                    <button class="hologram-button" onclick="addToCart('GHOST HELI', 60.00)">ACHETER</button>
+                </div> 
+            </div>
+            <div class="hero-buttons">
+                <a href="car.html#carpro" class="cyber-button">VOIR LA BOUTIQUE</a>
+            </div> 
+        </div>
+    </section>
+
+
+    <section class="hero" id="home">   
+  
+    </section>
+
+    <div class="quantum-cart" id="cart">
+        <h3 class="cart-header">PANIER</h3>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-total">TOTAL: <span id="cartTotal">0.00</span> DT</div>
+        <button class="hologram-button" onclick="checkout()">PAYER</button>
+    </div> 
+    <script src="SCRIPT.js"></script>
+</body>
+</html>
